@@ -25,7 +25,7 @@ All models—both classical and neural—were assessed using a unified evaluatio
 
 ## Configuring DB and Running Code in R and Python
 
-### DB Creation with pgAdmin4 and PostgreSQL
+### DB Creation with pgAdmin4 and PostgreSQL:
 To replicate the database used in the Thesis, follow the steps below to install the necessary tools and restore the database from the provided backup:
 
 **1. Install PostgreSQL and pgAdmin4**  
