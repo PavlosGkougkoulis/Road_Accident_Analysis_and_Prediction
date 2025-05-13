@@ -72,7 +72,7 @@ With your virtual environment activated, install all dependencies using the requ
 **4. Modify the Scripts file paths**  
 To run the scripts on a different system, modify the file paths (e.g., dataset locations or database URLs) inside the Python scripts to match your local directory structure.
 
-** 5. Have a GPU**  
+**5. Have a GPU**  
 A GPU is needed to run the LSTM Hyperparameter Grid Searches and other code blocks in the Python Scripts contained in this Repository since some Torch Python libraries are being used for optimization and better / faster performance. If there is no GPU available, other methods can be implemented using Google Colab or Jupyter Notebook. The GPU used for the mentioned code blocks in this Thesis was a Nvidia GTX 1660 Super.
 
 ## Repository Structure and Files
