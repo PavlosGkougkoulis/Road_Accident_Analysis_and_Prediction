@@ -149,11 +149,7 @@ Code/
         └── requirements.txt
     └── R/
         ├── Models/
-            ├── .$Model_Selection_Workflow_Diagram.png.bkp
-            ├── .$Model_Selection_Workflow_Diagram2.png.bkp
             ├── Manual_Model_Selection_ARIMA_SARIMA.xlsx
-            ├── Model_Selection_Workflow_Diagram.png
-            └── Model_Selection_Workflow_Diagram2.png
         └── Thesis_R_Code.R
 Data/
     ├── Main_Data/
