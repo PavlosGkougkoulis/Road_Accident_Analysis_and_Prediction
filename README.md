@@ -23,6 +23,56 @@ A recursive forecasting mechanism was developed to simulate weekly and monthly a
 ### Comparative Evaluation
 All models—both classical and neural—were assessed using a unified evaluation framework across standard forecasting metrics (MAE, RMSE, MAPE, SMAPE, R², WAPE, and MASE). The evaluation was performed independently on the same hold-out test sets, ensuring fair comparisons. LSTM models consistently achieved higher accuracy, particularly in scenarios involving multi-variable inputs and short-term trends. The recursive setup also allowed for stress-testing the model's behavior under compounding uncertainty, demonstrating its ability to maintain predictive stability over extended horizons.
 
+## Configuring DB and Running Code in R and Python
+
+### DB Creation with pgAdmin4 and PostgreSQL
+To replicate the database used in the Thesis, follow the steps below to install the necessary tools and restore the database from the provided backup:
+
+**1. Install PostgreSQL and pgAdmin4**  
+First, download and install the latest versions of [PostgreSQL](https://www.postgresql.org/download/) and [pgAdmin4](https://www.pgadmin.org/download/), which is a graphical interface for managing PostgreSQL databases.
+
+**2. Launch pgAdmin4 and Create a New Database**  
+After installation, open pgAdmin4, connect to your PostgreSQL server, and create a new empty database
+
+**3. Restore the Database from Backup**  
+- Right-click on the new database you created in pgAdmin.
+- Select Restore.
+- Under Format, choose Tar.
+- Locate the backup file from the repository.
+- Click Restore to populate the database with all tables, relationships, and data.
+
+### R:  
+The R script in this Repository already has the install.packages() and library() functions at the top, so anything needed to simulate the results in terms of libraries will be installed when you run the acoording code blocks.
+The only change that will be needed is to replace the file paths of the datasets accordingly.
+Also, [R](https://cran.r-project.org/) and [RStudio](https://posit.co/products/open-source/rstudio/) will be needed to simulate the Thesis' environment
+
+### Python:  
+To run the Python forecasting models in this Thesis, you will need to prepare a Python environment with the required dependencies.
+
+**1. Install Python 3**  
+Install the newest version of Python from the official [Python website](https://www.python.org/downloads/)
+
+**2. Create a Virtual Environment**  
+Create a virtual environment to isolate the project dependencies, using any Python IDE or from terminal like this:
+<pre lang="markdown">#Create a virtual environment 
+    
+python -m venv venv 
+    
+#Activate the environment 
+    
+source venv/bin/activate # On Windows use: venv\Scripts\activate  
+</pre>
+
+**3. Install Required Python Packages**  
+With your virtual environment activated, install all dependencies using the requirements.txt file provided:
+
+<pre lang="markdown">pip install -r requirements.txt
+</pre>
+
+**4. Modify the Scripts file paths**  
+To run the scripts on a different system, modify the file paths (e.g., dataset locations or database URLs) inside the Python scripts to match your local directory structure.
+
+
 ## Repository Structure and Files
 
 ```
