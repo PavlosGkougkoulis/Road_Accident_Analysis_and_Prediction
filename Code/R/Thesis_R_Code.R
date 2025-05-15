@@ -1540,8 +1540,8 @@ ggplot(acc.w.ind.y_mod, aes(x = week_date, y = fatalities)) +
 ggplot(acc.w.ind.y_mod, aes(x = as.factor(month), y = accidents, fill = "Accidents")) +
   geom_boxplot(alpha = 0.6, outlier.shape = NA) +
   stat_summary(aes(color = "Accidents"), fun = mean, geom = "point", size = 2.5, shape = 21, fill = "white") +
-  labs(title = "Monthly Distribution of Weekly Accidents",
-       subtitle = "Box Plot Showing the Spread of Weekly Accidents Per Month",
+  labs(title = "Monthly Distribution of Road Traffic Accidents",
+       subtitle = "Box Plot Showing the Spread of Road Traffic Accidents Per Month",
        x = "Month",
        y = "Accidents") +
   scale_fill_manual(values = c("Accidents" = "#0072B2")) +
@@ -1559,8 +1559,8 @@ ggplot(acc.w.ind.y_mod, aes(x = as.factor(month), y = accidents, fill = "Acciden
 ggplot(acc.w.ind.y_mod, aes(x = as.factor(month), y = fatalities, fill = "Fatalities")) +
   geom_boxplot(alpha = 0.6, outlier.shape = NA) +
   stat_summary(aes(color = "Fatalities"), fun = mean, geom = "point", size = 2.5, shape = 21, fill = "white") +
-  labs(title = "Yearly Distribution of Weekly Fatalities",
-       subtitle = "Box Plot Showing the Spread of Weekly Fatalities Per Year",
+  labs(title = "Monthly Distribution of Road Traffic Fatalities",
+       subtitle = "Box Plot Showing the Spread of Road Traffic Fatalities Per Month",
        x = "Year",
        y = "Fatalities") +
   scale_fill_manual(values = c("Fatalities" = "#D55E00")) +
