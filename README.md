@@ -1,3 +1,10 @@
+<p align="center">
+    
+![3](https://github.com/user-attachments/assets/ce816491-3c09-4876-9e61-291df12c19a6)
+![4](https://github.com/user-attachments/assets/eacdadac-90c0-4233-a6f4-92dbf5b64797)
+    
+</p>
+
 # Road Accident Analysis and Prediction
 
 ## Description
@@ -80,6 +87,22 @@ A GPU is needed to run the LSTM Hyperparameter Grid Searches and other code bloc
 ```
 Code/
     ├── Dfs/
+        ├── ARIMA_SARIMA_Predictions/
+            ├── ARIMA_Acc_Monthly_Preds_GS.xlsx
+            ├── ARIMA_Acc_Monthly_Preds.xlsx
+            ├── ARIMA_Acc_Weekly_Preds.xlsx
+            ├── ARIMA_Fat_Monthly_Preds.xlsx
+            ├── ARIMA_Fat_Weekly_Preds.xlsx
+            ├── SARIMA_Acc_Monthly_Preds.xlsx
+            ├── SARIMA_Acc_Weekly_Preds.xlsx
+            ├── SARIMA_Fat_Monthly_Preds_GS.xlsx
+            ├── SARIMA_Fat_Monthly_Preds.xlsx
+            ├── SARIMA_Fat_Weekly_Preds_GS.xlsx
+            └── SARIMA_Fat_Weekly_Preds.xlsx
+        ├── Descriptive_Statistics/
+            ├── Desc_Stats_Acc_Monthly.xlsx
+            ├── Desc_Stats_Acc_Weekly.xlsx
+            └── Desc_Stats_Acc_Yearly.xlsx
         ├── Dfs_Extraction/
             ├── Monthly/
                 ├── Csv/
@@ -109,28 +132,9 @@ Code/
         ├── Dfs_LSTM/
             ├── Monthly_Accident_Dataset_LSTM.csv
             └── Weekly_Accident_Dataset_LSTM.csv
-        ├── .RData
-        ├── .Rhistory
-        ├── ~$Desc_Stats_Acc_Monthly.xlsx
-        ├── ~$Desc_Stats_Acc_Weekly.xlsx
-        ├── ~$Desc_Stats_Acc_Yearly.xlsx
-        ├── ARIMA_Acc_Monthly_Preds_GS.xlsx
-        ├── ARIMA_Acc_Monthly_Preds.xlsx
-        ├── ARIMA_Acc_Weekly_Preds.xlsx
-        ├── ARIMA_Fat_Monthly_Preds.xlsx
-        ├── ARIMA_Fat_Weekly_Preds.xlsx
-        ├── Desc_Stats_Acc_Monthly.xlsx
-        ├── Desc_Stats_Acc_Weekly.xlsx
-        ├── Desc_Stats_Acc_Yearly.xlsx
         ├── monthly_accidents_yearly_indicators_filled.csv
         ├── monthly_accidents_yearly_indicators.csv
         ├── monthly_accidents.csv
-        ├── SARIMA_Acc_Monthly_Preds.xlsx
-        ├── SARIMA_Acc_Weekly_Preds.xlsx
-        ├── SARIMA_Fat_Monthly_Preds_GS.xlsx
-        ├── SARIMA_Fat_Monthly_Preds.xlsx
-        ├── SARIMA_Fat_Weekly_Preds_GS.xlsx
-        ├── SARIMA_Fat_Weekly_Preds.xlsx
         ├── weekly_accidents_yearly_indicators_filled.csv
         ├── weekly_accidents_yearly_indicators.csv
         ├── weekly_accidents.csv
@@ -201,7 +205,7 @@ Code/
         └── requirements.txt
     └── R/
         ├── Models/
-            ├── Manual_Model_Selection_ARIMA_SARIMA.xlsx
+            └── Manual_Model_Selection_ARIMA_SARIMA.xlsx
         └── Thesis_R_Code.R
 Data/
     ├── Main_Data/
