@@ -92,50 +92,10 @@ Code/
             ├── SARIMA_Fat_Monthly_Preds.xlsx
             ├── SARIMA_Fat_Weekly_Preds_GS.xlsx
             └── SARIMA_Fat_Weekly_Preds.xlsx
-        ├── Descriptive_Statistics/
+        └── Descriptive_Statistics/
             ├── Desc_Stats_Acc_Monthly.xlsx
             ├── Desc_Stats_Acc_Weekly.xlsx
             └── Desc_Stats_Acc_Yearly.xlsx
-        ├── Dfs_Extraction/
-            ├── Monthly/
-                ├── Csv/
-                    └── Monthly_Accidents.csv
-                ├── Excel/
-                    └── Monthly_Accidents.xlsx
-                ├── Available_Cols_Monthly.txt
-                └── Cols_Included_Monthly.txt
-            ├── Weekly/
-                ├── Csv/
-                    └── Weekly_Accidents.csv
-                ├── Excel/
-                    └── Weekly_Accidents.xlsx
-                ├── Available_Cols_Weekly.txt
-                └── Cols_Included_Weekly.txt
-            └── Yearly/
-                ├── Csv/
-                    └── Yearly_Accidents.csv
-                ├── Excel/
-                    └── Yearly_Accidents.xlsx
-                ├── Available_Cols_Yearly.txt
-                └── Cols_Included_Yearly.txt
-        ├── Dfs_for_Python/
-            ├── acc.m.ind.y_mod.csv
-            ├── acc.w.ind.y_mod.csv
-            └── acc.y.ind.y_mod.csv
-        ├── Dfs_LSTM/
-            ├── Monthly_Accident_Dataset_LSTM.csv
-            └── Weekly_Accident_Dataset_LSTM.csv
-        ├── monthly_accidents_yearly_indicators_filled.csv
-        ├── monthly_accidents_yearly_indicators.csv
-        ├── monthly_accidents.csv
-        ├── weekly_accidents_yearly_indicators_filled.csv
-        ├── weekly_accidents_yearly_indicators.csv
-        ├── weekly_accidents.csv
-        ├── yearly_accidents_yearly_indicators_filled.csv
-        ├── yearly_accidents_yearly_indicators.csv
-        ├── yearly_accidents.csv
-        ├── yearly_indicators_filled.csv
-        └── yearly_indicators.csv
     ├── Python/
         ├── Main_Code/
             ├── Monthly_LSTM/
@@ -200,99 +160,6 @@ Code/
         ├── Models/
             └── Manual_Model_Selection_ARIMA_SARIMA.xlsx
         └── Thesis_R_Code.R
-Data/
-    ├── Main_Data/
-        ├── Accidents_1996-2022_MODDED.xlsx
-        ├── Accidents-1996-2022-2.xlsx
-        └── Yearly_Indicators.csv
-    └── Other_Data/
-        ├── Elstat_Data/
-            ├── Arithmos_Odikwn_Atyxhmatwn_kai_pathontwn_proswpwn_1991_2022_Ethsio.xlsx
-            ├── Deikths_Kyklou_Ergasiwn_Ston_Tomea_Metaforwn.xlsx
-            ├── Environmental_Taxes_2012_2022.xlsx
-            ├── GDP_Ethsio_1995_2023.xlsx
-            ├── GDP_Per_Capita_1995_2023.xlsx
-            ├── Inflation_Rate.xls
-            ├── Nekroi_Apo_Odika_Troxaia_Atyxhmata_2007_2022_Ethsio.xlsx
-            ├── Odika_Troxaia_Atyxhmata_Avgoustos_2024.pdf
-            ├── Odika_Troxaia_Atyxhmata_Vasika_Xarakthristika_2007_2022_Ethsio.xlsx
-            ├── Population_1991_2011.pdf
-            ├── Troxaia_Odika_Atyxhmata_kai_Pathonta_Proswpa_Ianouarios_2010_Avgoustos_2024_Mhniaio.xlsx
-            ├── Unemployment_1983_2023.xls
-            └── Vehicles_Existing_1985_2023.xlsx
-        ├── Eurostat_Data/
-            ├── All_Gas_Types_Consumption_and_Stats.xlsx
-            ├── Electricity.xlsx
-            ├── GDP.xlsx
-            ├── Healthy_Life_Years.xlsx
-            ├── MotorCycles_Per_Fuel.xlsx
-            ├── Natural_Gas.xlsx
-            ├── Newly_Registered_Cars_Per_Fuel_Type.xlsx
-            ├── Newly_Registered_MotorCycles_Per_Fuel_Type.xlsx
-            ├── Passenger_Cars_Per_Fuel.xlsx
-            ├── Persons_killed_in_road_accidents_by_age_sex_and_category_of_persons_involved.xlsx
-            ├── Petrol_Consumption.xlsx
-            ├── Population.xlsx
-            ├── Road_Freight_Transport_By_Type_of_Operation_and_Type_of_Transport.xlsx
-            ├── Total_Road_Length_2022.xlsx
-            ├── Transport_Environmental_Taxes.xlsx
-            └── Unemployment_Rate.xlsx
-        └── NTUA_Data/
-            └── Basic_Road_Safety_Figures_pdf.pdf
-DB/
-    ├── Backup/
-        └── RoadAccidentsDBBackup.tar
-    ├── DB_Data/
-        ├── DB_Data_Outputs/
-            ├── monthly_accidents_yearly_indicators_filled.csv
-            ├── monthly_accidents_yearly_indicators.csv
-            ├── monthly_accidents.csv
-            ├── weekly_accidents_yearly_indicators_filled.csv
-            ├── weekly_accidents_yearly_indicators.csv
-            ├── weekly_accidents.csv
-            ├── yearly_accidents_yearly_indicators_filled.csv
-            ├── yearly_accidents_yearly_indicators.csv
-            ├── yearly_accidents.csv
-            ├── yearly_indicators_filled.csv
-            └── yearly_indicators.csv
-        └── DB_Data_Populated/
-            ├── Main_Gathered/
-                ├── Accidents_1996-2022_MODDED.xlsx
-                └── Yearly_Indicators.csv
-            ├── Basic_Road_Safety_Figures_pdf.pdf
-            ├── Electricity.xlsx
-            ├── Environmental_Taxes_2012_2022.xlsx
-            ├── GDP_Ethsio_1995_2023.xlsx
-            ├── GDP_Per_Capita_1995_2023.xlsx
-            ├── Natural_Gas.xlsx
-            ├── Petrol_Consumption.xlsx
-            ├── Population_1991_2011.pdf
-            ├── Unemployment_1983_2023.xls
-            └── Vehicles_Existing_1985_2023.xlsx
-    ├── DB_Details/
-        └── ER_RoadAccidentsDB.png
-    └── Queries/
-        ├── DB_CSV_Output_Queries/
-            ├── Monthly_Accidents_Output_Query.sql
-            ├── Monthly_Accidents_Yearly_Indicators_Filled_Output_Query.sql
-            ├── Monthly_Accidents_Yearly_Indicators_Output_Query.sql
-            ├── Weekly_Accidents_Output_Query.sql
-            ├── Weekly_Accidents_Yearly_Indicators_Filled_Output_Query.sql
-            ├── Weekly_Accidents_Yearly_Indicators_Output_Query.sql
-            ├── Yearly_Accidents_Output_Query.sql
-            ├── Yearly_Accidents_Yearly_Indicators_Filled_Output_Query.sql
-            ├── Yearly_Accidents_Yearly_Indicators_Output_Query.sql
-            ├── Yearly_Indicators_Filled_Output_Query.sql
-            └── Yearly_Indicators_Output_Query.sql
-        ├── DB_Population_Queries/
-            ├── Population_Query_Monthly.sql
-            ├── Population_Query_Weekly.sql
-            ├── Population_Query_Yearly.sql
-            ├── Test_Query_Weekly.sql
-            └── Test_Query_Yearly.sql
-        └── Yearly_Indicators_Fill/
-            ├── Yearly_Indicators_Filled_Copy.sql
-            └── Yearly_Indicators_Filled_Csv_Import.sql
 Papers/
     ├── Circulars_Clarification_Draft laws/
         ├── apofasi_oeek-2017-5-2007.pdf
