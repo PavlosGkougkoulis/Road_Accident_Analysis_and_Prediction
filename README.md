@@ -41,13 +41,6 @@ First, download and install the latest versions of [PostgreSQL](https://www.post
 **2. Launch pgAdmin4 and Create a New Database**  
 After installation, open pgAdmin4, connect to your PostgreSQL server, and create a new empty database
 
-**3. Restore the Database from Backup**  
-- Right-click on the new database you created in pgAdmin.
-- Select Restore.
-- Under Format, choose Tar.
-- Locate the backup file from the repository.
-- Click Restore to populate the database with all tables, relationships, and data.
-
 ### R:  
 The R script in this Repository already has the install.packages() and library() functions at the top, so anything needed to simulate the results in terms of libraries will be installed when you run the acoording code blocks.
 The only change that will be needed is to replace the file paths of the datasets accordingly.
